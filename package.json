@@ -1,0 +1,19 @@
+{
+  "name": "rdf-store-ldp-browser",
+  "version": "0.3.0-rc1",
+  "description": "A browser friendly version of rdf-store-ldp",
+  "main": "index.js",
+  "scripts": {
+    "install": "mkdir -p dist && browserify index.js --external rdf-ext > dist/rdf-store-ldp.js"
+  },
+  "author": "Reto Gmür <me@farewellutopia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rdf-store-ldp": "0.3.0-rc1",
+    "browserify": "latest"
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/retog/rdf-store-ldp-browser.git"
+  }
+}
