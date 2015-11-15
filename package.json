@@ -1,6 +1,6 @@
 {
   "name": "rdf-store-ldp-browser",
-  "version": "0.3.0-rc1b",
+  "version": "0.3.0-rc2",
   "description": "A browser friendly version of rdf-store-ldp",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Reto Gmür <me@farewellutopia.com>",
   "license": "MIT",
   "dependencies": {
-    "rdf-store-ldp": "0.3.0-rc1"
+    "rdf-store-ldp": "0.3.0-rc2"
   },
   "repository" : { 
     "type" : "git", 
