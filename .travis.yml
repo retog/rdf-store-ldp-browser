@@ -16,7 +16,7 @@ deploy:
   - provider: releases
     api_key:
       secure: "thFLk8ffrHxTx3xLucN2LmxWiOzRAqBExuATtt3Ycx2JoYM6XDCJuTA9qfru+loOTP7y/Om/EP/gV+InUtoSB/ic6kDnKe+LQ8OwD6fLcrnGlYqlyk0tNPLMPi5RA9nJKcnzushPU7zjs9SzB7jLQXVpAcOzELkrlU4B8nD/2PjBI+/ZaC+ifsUghrooXL2Qu6CvmYD3QazCcLiEx90lW6RGXGffyouOoHpRH3GhPg+y1zg/opkEsC1zOUJWlsK+wGYkW6CHjynDgJ9rPQo0hP1fVS/UaWxzajxebewf7Mb7Rctk3dEtvkwKKoNs8UKhOW3bMbniqckbnEQO52xts/mk36lwux7c1rhiqmD/A0HUHhMFU+nC3h6Ij9YzqIA1unQZrin8RFLDS9f8TZByVFtNA3NXuSYar/vaD5eHOZ4qQzAflIn6g1GZjS84IglfCqBcX9NUqpQBI4EmwAmGe0fLBeZnw3QdWyfJCTGDMGNnsF8Y4VUwXCMufDCJzdnquStnsChG5brNoy3V0CJYCnPAB4pCNrd63Hg79y2o6nAFKffvTlt1U4Gq0gHwo+DWPT4CjRqiUe9yi+fRJSJ41ZCigCdpLFuXUWWUn8K5hXwdcdKYROQmnSjL1dPZeKm/M+tBGrgwdYOvPhCWmfmEmoGelaF9Lgr9I4dHAk1wzH0="
-    file: dist/rdf-store-ldp.js.js
+    file: dist/rdf-store-ldp.js
     on:
       tags: true
   - provider: bintray
