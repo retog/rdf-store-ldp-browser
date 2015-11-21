@@ -1,11 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "4.2"
-branches:
-  only: 
-    - gh-pages
-    - /.*/ 
+  - "4.2" 
 deploy:
   - provider: npm
     email: "reto.gmuer@zazuko.com"
@@ -19,8 +15,10 @@ deploy:
     file: dist/rdf-store-ldp.js
     on:
       tags: true
-  - provider: bintray
-    file: ".bintray-descriptor.json"
-    user: "reto"
-    key:
-      secure: "HWpUoWFTGAjQoA/Lb0gbKSQHt59+Bfxoo0P80lEHlrJEqkwQ3uxo2pP9ERcUi1Qhw2jG0Hz/DIEsvCdRqclr/ZavXPIMy1LAe/ZMv1TiAKOwrfeREQGdXq3OmyfUf5fNV+ZQJXNjyY+8m64T4M3nJ3bDk/d9ro1uf5hd0UOyXrM5jc7HzsJT52u0eSwYjWMnYXTurHS6P/uhVl4ZYiujea4/37dq266VYq0h5et0Y5wvfBJ2NNqQCkBV/et8bRamHfEehbOoFG6UnnC/83fDbBxACYzHSXdEN3S8l1KSemUDadTs6QgvKmA4sipwS7DckZQ1XVB0UlXE4+NwP7uE2RwNvxlfP/HeVH3LdQcpAVojYXw0/Ffg6lvWOE+G0y0/peg/BEoNhtce4IhT11ZfenYETtnX0JKIkskB104KzLuBwtiivZsspbGWoDnCaNmJ69SzC9uy7420FuYvlexp1zNU0WGf2MVguJa/ZWss25nsJiEQzvPN6pkztvgZcw2P5K9lsRbokc02QHK7gAmBn+gYfvshdqOzADAvWJnXH/wdzHbHizvSXsYK2qYVRFUsVkkWtXUwcv1yE1hqxEHG0VWkim4bYMBf4LfMGyIUg1GeSUAqjMdPGbttgV790ExuTV2r6YW0HEwMn3oD1nLc2Y3FQ5b7PeOFdBKgGTE7WiU="
+#  - provider: bintray
+#    file: ".bintray-descriptor.json"
+#    user: "reto"
+#    key:
+#      secure: "HWpUoWFTGAjQoA/Lb0gbKSQHt59+Bfxoo0P80lEHlrJEqkwQ3uxo2pP9ERcUi1Qhw2jG0Hz/DIEsvCdRqclr/ZavXPIMy1LAe/ZMv1TiAKOwrfeREQGdXq3OmyfUf5fNV+ZQJXNjyY+8m64T4M3nJ3bDk/d9ro1uf5hd0UOyXrM5jc7HzsJT52u0eSwYjWMnYXTurHS6P/uhVl4ZYiujea4/37dq266VYq0h5et0Y5wvfBJ2NNqQCkBV/et8bRamHfEehbOoFG6UnnC/83fDbBxACYzHSXdEN3S8l1KSemUDadTs6QgvKmA4sipwS7DckZQ1XVB0UlXE4+NwP7uE2RwNvxlfP/HeVH3LdQcpAVojYXw0/Ffg6lvWOE+G0y0/peg/BEoNhtce4IhT11ZfenYETtnX0JKIkskB104KzLuBwtiivZsspbGWoDnCaNmJ69SzC9uy7420FuYvlexp1zNU0WGf2MVguJa/ZWss25nsJiEQzvPN6pkztvgZcw2P5K9lsRbokc02QHK7gAmBn+gYfvshdqOzADAvWJnXH/wdzHbHizvSXsYK2qYVRFUsVkkWtXUwcv1yE1hqxEHG0VWkim4bYMBf4LfMGyIUg1GeSUAqjMdPGbttgV790ExuTV2r6YW0HEwMn3oD1nLc2Y3FQ5b7PeOFdBKgGTE7WiU="
+#    on:
+#      tags: true
