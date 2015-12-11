@@ -1,6 +1,6 @@
 {
   "name": "rdf-store-ldp-browser",
-  "version": "0.3.0-rc2d",
+  "version": "0.3.0-rc2e",
   "description": "A browser friendly version of rdf-store-ldp",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "rdf-store-ldp": "0.3.0-rc2",
     "rdf-mime-type-util": "0.3.0-rc2"
   },
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/retog/rdf-store-ldp-browser.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retog/rdf-store-ldp-browser.git"
   },
   "devDependencies": {
     "browserify": "latest",
