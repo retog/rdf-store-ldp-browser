@@ -1,6 +1,6 @@
 {
   "name": "rdf-store-ldp-browser",
-  "version": "0.3.0-rc2e",
+  "version": "0.3.0-rc2f",
   "description": "A browser friendly version of rdf-store-ldp",
   "main": "index.js",
   "scripts": {
