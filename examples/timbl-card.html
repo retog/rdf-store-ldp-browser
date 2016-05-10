@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="//cdn.rawgit.com/rdf2h/rdf2h/v0.3.0/dist/rdf-ext.js"></script>
+        <script src="../dist/rdf-store-ldp.js"></script>
+        <script>
+            var turtleParser = rdf.parsers.findParsers("text/turtle")[0];
+            var store = new LdpStore({
+                            parsers: {
+                                'text/turtle': turtleParser,
+                                'application/ld+json': rdf.parsers.findParsers("application/ld+json")[0],
+                                'application/rdf+xml': rdf.parsers.findParsers("application/rdf+xml")[0]
+                            }
+                        });
+            var getGraph = function() {
+                                store.match(null,
+                                    null,
+                                    null,
+                                    "http://www.w3.org/People/Berners-Lee/card.rdf",
+                                    function (error, g) {
+                                        alert("graph: "+g);
+                                    })
+                        };        
+        </script>
+    </head>
+    <body>
+        <button id="get" onclick="getGraph()">Get Graph</button>
+        
+    </body>
+</html>

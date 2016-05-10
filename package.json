@@ -9,8 +9,7 @@
   "author": "Reto Gmür <me@farewellutopia.com>",
   "license": "MIT",
   "dependencies": {
-    "rdf-store-ldp": "0.3.0-rc2",
-    "rdf-mime-type-util": "0.3.0-rc2"
+    "rdf-store-ldp": "0.3.1"
   },
   "repository": {
     "type": "git",
